@@ -17,11 +17,7 @@
     margin: auto;
 }
 
-.container_2{
-    width: 80%;
-    max-width: 1920px;
-    margin: auto;
-}
+
 
 .d-flex{
     display: flex;
@@ -45,6 +41,7 @@
     height: 50px;
     width: 100%;
     margin-bottom: 2px;
+    padding: 10px 0px;
 }
 
 .top_left {
@@ -91,39 +88,41 @@
 
 .work{
     background-color: var(--dropbox-primary);
-    width: 100%;
-    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.container_2{
+    width: 1200px;
+    height: 750px;
+    margin: auto;
 }
 
 h1{
-    font-weight: 1000;
-    font-size: 70px;
-    
+    font-size: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .space{
-
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
 }
 
 .left_top_site{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     justify-content: space-between;
+    padding: 10px 0px;
+    width: 250px;
+    height: 450px;
 }
 
-p{
-    font-size: 20px;
-}
-
-.style_start{
-    
-    
-
-}
-.right_top_site{
-    display: flex;
-    flex-grow: 3;
+.propose{
+    display: block;
+    width:850px;
+    padding-top: 40px;
 }
 
 /* #endregion work */
@@ -131,7 +130,7 @@ p{
 /* #region business */
 
 .business{
-    width: 70%;
+    width: 1000px;
     max-width: 1920px;
     margin: auto;
     padding-top: 50px;
@@ -154,9 +153,9 @@ h2{
 /* #endregion business */
     
 .card{
-    border-style: inset;
+    
     border-color: rgba(0, 0, 0, 0.11);
-    padding: 2px;
+    padding: 0 px 2px 2px 2px;
     
 }
     
@@ -167,11 +166,27 @@ h2{
     
 
 .professional{
+    display: flex;
+    flex-direction: column;
     width: 80%;
+    border-color: rgba(0, 0, 0, 0.11);
+    
+    
+    
+    
+}
+
+.single{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.11);
+    text-align: center;
+    padding: 8px;
+    border: 2px 2px 2px 2px;
 }
 
 .team{
     width: 80%;
+    text-align: center;
 }
 
 .azienda{
