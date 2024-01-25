@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dropbox-primary:#b5d0e6;
+    --dropbox-dark:#010001;
+    --dropbox-ligh:#0060fe;
+    --dropbox-portal:#65173d;
+}
+
+.container{
+    width: 98%;
+    max-width: 1920px;
+    margin: auto;
+    
+
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.space_between{
+    justify-content: space-between;
+}
+
+#site_header{
+    height: 80px;
+    width: 100%;
+}
+
+.top_left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+
+.list_style{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.style_head{
+    text-decoration: none;
+    color: black;
+}
+
+.button_head_style > a{
+    background-color: var(--dropbox-ligh);
+    color: white;
+    padding: 1px 4px;
+    text-decoration: none;
+    border-style: none;
+    border-color: var(--dropbox-ligh);
+}
