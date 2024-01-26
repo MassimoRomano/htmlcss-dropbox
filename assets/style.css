@@ -251,11 +251,9 @@ h2{
 .contact{
     width: 1002px;
     max-width: 1920px;
-    height: 750px;
+    height: 650px;
     margin: auto;
     padding-top: 50px;
-    gap: 5%;
-    
 }
 
 
@@ -289,6 +287,18 @@ h2{
     color: #000000e8;
 }
 
+
+.operation{
+    width: 1002px;
+    max-width: 1920px;
+    height: 1300px;
+    margin: auto;
+}
+
+.cal-4 >img{
+    display: block;
+    width: 100%;
+}
 
 
 
