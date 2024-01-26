@@ -31,11 +31,16 @@
 
 .cal-4{
     width:calc((100%/12)*4);
+    padding: 30px;
 }
 
 .cal-12{
     width: 100%;
     margin: 50px 0px;
+}
+
+.cal-2{
+    width: calc(100%/2);
 }
 
 /* #region site_header */
@@ -170,7 +175,6 @@ h2{
 .card{
     
     border-color: rgba(0, 0, 0, 0.11);
-    padding: 0px 30px 2px 2px;
     
 }
     
@@ -212,7 +216,7 @@ h2{
     text-decoration: none;
     color: white;
     background-color: var(--dropbox-ligh);
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-align: center;
 }
 
@@ -248,12 +252,15 @@ h2{
 
 /* #endregion business */
 
+/* #region contact */
+
 .contact{
     width: 1002px;
     max-width: 1920px;
-    height: 650px;
+    height: 750px;
     margin: auto;
     padding-top: 50px;
+    gap: 5%;
 }
 
 
@@ -291,7 +298,7 @@ h2{
 .operation{
     width: 1002px;
     max-width: 1920px;
-    height: 1300px;
+    height: 1100px;
     margin: auto;
 }
 
@@ -300,6 +307,103 @@ h2{
     width: 100%;
 }
 
+.discover{
+    padding: 100px 0;
+    text-align: left;
+    margin-right: 400px;
+
+    > h2{
+        font-weight: bolder;
+        font-size: 1000;
+        padding: 40px 0px 40px 0px;
+    }
+
+    > a{
+        padding: 40px 0 40px 0px;
+    }
+}
+
+/* #endregion contact */
+
+/* #region designit */
+
+.designit{
+    width: 1200px;
+    max-width: 1920;
+    height: 650px;
+    margin: auto;
+    padding-top: 400px;
+}
+
+.left_designit, 
+.right_designit{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+
+.partner_logo{
+    display: block;
+    width: 50%;
+    height: 80%;
+}
+
+.center_designit{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    background-color: rgb(250, 247, 243);
+    height: 399.5px;
+
+    > img{
+        display: block;
+        width: 60%;
+    }
+}
+
+.separate_partner{
+    background-color: rgba(128, 128, 128, 0.377);
+    height: 2px;
+    width: 30%;
+    margin: 50px 0;
+}
+
+.bottom_designit{
+    background-color: var(--dropbox-primary);
+    height: 360px;
+    width: 1200px;
+    max-width: 1920;
+    margin: auto;
+    margin-top: 150px;
+    
+
+    > .width_1002{
+        width: 1002px;
+        margin: auto;
+        gap: 30%;
+        padding: 10% 0 10%;
+    }
+}
+
+.left_text{
+    width: 40%;
+    color: rgb(112, 0, 112);
+}
+
+.right_text{
+    width: 30%;
+    
+
+    > a{
+        background-color: white;
+        padding: 10px 30px 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        color: #010001;
+    }
+    
+}
 
 
 /* #endregion main */
