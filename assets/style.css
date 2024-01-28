@@ -6,7 +6,7 @@
 }
 
 body{
-    overflow-x: hidden;
+   
 }
 
 :root {
@@ -34,7 +34,6 @@ body{
     width: 1002px;
     max-width: 1920px;
     margin: auto;
-
 }
 
 .d-flex {
@@ -77,6 +76,7 @@ h1 {
 /* #region site_header */
 
 #site_header {
+    width: 1920px;
     height: auto;
     align-items: center;
     height: 60px;
@@ -139,6 +139,7 @@ li>a {
     background-color: var(--dropbox-primary);
     height: 750px;
     margin-bottom: 100px;
+    width: 1920px;
 }
 
 .left_jumbo {
@@ -379,7 +380,7 @@ li > button{
 .designit_bottom{
     background-color: var(--dropbox-primary);
     height: 350px;
-    width: 100%;
+    width: 1920px;
 }
 
 .contenitor_des_bottom{
@@ -414,6 +415,7 @@ li > button{
 
 /* #region faq */
 .faq{
+
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -446,8 +448,34 @@ li > button{
 
 /* #endregion main */
 
-.site_footer{
+#site_footer{
     background-color: black;
     height: 570px;
     width: 100%;
+    margin: auto;
+}
+
+.foot{
+    gap:20px ;
+}
+
+.dropbox{
+    width: 220px;
+    
+    color: white;
+
+    >h4{
+        padding: 80px 0 50px 0;
+    }
+
+    & > ul{
+        list-style: none;
+        padding-bottom: 40px;
+    }
+}
+.line{
+        background-color: rgba(214, 190, 190, 0.904);
+        height: 2px;
+        width: 50%;
+        margin: 50px 0;
 }
