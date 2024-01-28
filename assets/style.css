@@ -50,6 +50,10 @@ body{
     flex-wrap: wrap;
 }
 
+.space_between{
+    justify-content: space-between;
+}
+
 h1 {
     font-size: 80px;
     padding-bottom: 50px;
@@ -127,6 +131,7 @@ li>a {
 
 /* #endregion site_header */
 
+/* #region main */
 
 /* #region jumbo_section */
 
@@ -407,4 +412,42 @@ li > button{
 
 /* #endregion designit */
 
+/* #region faq */
+.faq{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+
+    >h2{
+        padding-bottom: 40px;
+    }
+    
+}
+
+.faq_question_1{
+    padding: 30px 0;
+    border-top:1px solid rgba(0, 0, 0, 0.329) ;
+    border-bottom:1px solid rgba(0, 0, 0, 0.329) ;
+
+}
+.faq_question_2,
+.faq_question_3{
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+
+}
+
+/* #endregion faq */
+
+
 /* #endregion main */
+
+.site_footer{
+    background-color: black;
+    height: 570px;
+    width: 100%;
+}
