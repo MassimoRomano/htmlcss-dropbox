@@ -25,8 +25,9 @@ body{
 }
 
 .container_2 {
-    width: 1200px;
+    width: 62%;
     max-width: 1920px;
+    ;
     margin: auto;
 }
 
@@ -182,7 +183,7 @@ li>a {
 
 .plane_selection {
     display: flex;
-
+    
     &>input {
         font-size: 1.2rem;
         padding-bottom: 3.5rem;
@@ -200,12 +201,12 @@ li>a {
 }
 
 .card_plane{
-    border: 1px solid rgb(124, 124, 124);
-    
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    height: 950px;
 }
 
 .top_card{
-   border-bottom:1px solid rgb(124, 124, 124) ;
+   border-bottom:1px solid rgba(0, 0, 0, 0.116) ;
    padding: 10px 0;
    justify-content: center;
 
@@ -232,6 +233,66 @@ li>i{
     padding-right: 10px;
 }
 
+.bottom_card_enterprise{
+    padding: 60px 20px;
+}
+
+.left{
+    width: 50%;
+    >h2{
+        padding-bottom: 15px;
+    }
+}
+
+
+.right{
+    width: 35%;
+    margin-right: -80px;
+    justify-self: flex-start;
+    padding-top: 10px;
+}
+
+
+.test{
+    > a{
+        background-color: var(--dropbox-ligh);
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+    }
+}
+.solution{
+    padding-top: 60px;
+    padding-right: 10px;
+    width: 70%;
+}
+
+.btn_plane{
+    background-color: var(--dropbox-ligh);
+    padding: 10px 0;
+    text-align: center;
+    margin: 30px 0;
+
+    >a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.separate_plane{
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 2px;
+    margin: 40px 150px 40px 0px;
+}
+
+.point_plane{
+    list-style: none;
+}
+
+.card_plane_enter{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
 
 
 /* #endregion business_section */
@@ -240,7 +301,7 @@ li>i{
 
 
 .contanitor_contact{
-    margin-top: 100px;
+    margin-top:200px;
     gap: 5%;
     height: 750px;
 }
@@ -305,11 +366,11 @@ li > button{
 
 
 .discovery{
-    margin-top: 150px;
     margin-right: 50px;
 
     > h2{
         font-size: 50px;
+        margin-top: 200px;
         padding-bottom: 40px;
     }
 }
@@ -346,6 +407,12 @@ li > button{
     > img{
         filter: invert(100%);
     }
+}
+
+.des{
+    width: 320px;
+    height: 320px;
+    border: inset 10px greenyellow;
 }
 
 .partner_logo{
@@ -448,6 +515,8 @@ li > button{
 
 /* #endregion main */
 
+
+/* #region site_footer */
 #site_footer{
     background-color: black;
     height: 570px;
@@ -479,3 +548,5 @@ li > button{
         width: 50%;
         margin: 50px 0;
 }
+
+/* #endregion site_footer */
